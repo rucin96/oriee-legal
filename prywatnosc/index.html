@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Polityka prywatności — oriee</title>
+<meta name="description" content="Polityka prywatności oriee aplikacji oriee — licznik kalorii z logowaniem posiłków przez AI.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+    --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+  --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+}
+:root[data-theme="light"]{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink-soft);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px; line-height:1.65;
+}
+.wrap{max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 4rem}
+header{border-bottom:1px solid var(--line); padding-bottom:1.25rem; margin-bottom:2rem}
+.brand{
+  display:inline-block; font-weight:700; font-size:1.05rem; letter-spacing:-.01em;
+  color:var(--pine); text-decoration:none;
+}
+h1{
+  color:var(--ink); font-size:1.75rem; line-height:1.25; letter-spacing:-.02em;
+  margin:.75rem 0 0; font-weight:800;
+}
+h2{
+  color:var(--ink); font-size:1.05rem; letter-spacing:-.01em;
+  margin:2.25rem 0 .5rem; font-weight:700;
+}
+.updated{
+  color:var(--ink-faint); font-size:.8125rem; margin:.5rem 0 0;
+  font-variant-numeric:tabular-nums;
+}
+p{margin:0 0 .85rem}
+ul{margin:0 0 .85rem; padding-left:1.15rem}
+li{margin:0 0 .35rem}
+a{color:var(--pine)}
+footer{
+  margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
+  color:var(--ink-faint); font-size:.8125rem;
+}
+footer a{color:var(--ink-faint)}
+@media(max-width:30rem){ .wrap{padding:1.75rem 1rem 3rem} h1{font-size:1.45rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="../">oriee</a>
+  <h1>Polityka prywatności oriee</h1>
+  <p class="updated">Ostatnia aktualizacja: 2026-08-08</p>
+</header>
+<main>
+<h2>1. Administrator</h2>
+<p>Administratorem Twoich danych osobowych jest MR Marcin Ruciński, ul. Wolności 546c/6, 41-806 Zabrze, NIP 6482808866. Kontakt: oriee.app@gmail.com.</p>
+<h2>2. Jakie dane przetwarzamy</h2>
+<ul>
+<li>Dane profilu: płeć, wiek, wzrost, waga, poziom aktywności, cel — podane w onboardingu.</li>
+<li>Dziennik żywieniowy: zalogowane posiłki, porcje, wartości odżywcze, passa.</li>
+<li>Waga i trend wagi (w tym importowane z Apple Health / Health Connect za Twoją zgodą).</li>
+<li>Konto: identyfikator, adres e-mail (jeśli założysz konto), status subskrypcji.</li>
+<li>Treści do rozpoznania przez AI: tekst posiłku, nagranie głosu zamienione na tekst, zdjęcia posiłków/etykiet — przetwarzane w celu rozpoznania i policzenia wartości.</li>
+<li>Dane techniczne niezbędne do działania (np. logi błędów po stronie serwera).</li>
+</ul>
+<h2>3. Cele i podstawy prawne (RODO)</h2>
+<ul>
+<li>Świadczenie usługi (liczenie kalorii, dziennik, trendy) — art. 6 ust. 1 lit. b.</li>
+<li>Rozpoznawanie posiłków przez AI — wykonanie umowy (lit. b).</li>
+<li>Dane zdrowotne (waga, Health) — na podstawie Twojej wyraźnej zgody (art. 9 ust. 2 lit. a); zgodę możesz wycofać w każdej chwili w ustawieniach systemu / aplikacji.</li>
+<li>Rozliczenie subskrypcji — obowiązek prawny i wykonanie umowy.</li>
+</ul>
+<h2>4. Odbiorcy / podmioty przetwarzające</h2>
+<p>Korzystamy z zaufanych dostawców wyłącznie w zakresie niezbędnym do działania:</p>
+<ul>
+<li>Supabase (baza danych, uwierzytelnianie, funkcje serwerowe) — region UE.</li>
+<li>Anthropic (model AI Claude) — przetwarzanie tekstu/zdjęć posiłków w celu rozpoznania.</li>
+<li>RevenueCat oraz Apple App Store / Google Play — obsługa subskrypcji i płatności.</li>
+<li>Open Food Facts — publiczna baza produktów (ODbL) używana do wyszukiwania.</li>
+</ul>
+<p>Nie sprzedajemy Twoich danych. Nie wykorzystujemy danych żywieniowych/zdrowotnych do reklam.</p>
+<h2>5. Zdjęcia i AI</h2>
+<p>Zdjęcia posiłków/etykiet wysyłamy do przetwarzania w celu rozpoznania. Nie przechowujemy zdjęć po przetworzeniu — nie zapisujemy ich na naszych serwerach. Nie używamy Twoich zdjęć do trenowania modeli.</p>
+<h2>6. Wspólna baza produktów</h2>
+<p>Aby aplikacja działała szybciej i dokładniej dla wszystkich, zapisujemy w naszej bazie:</p>
+<ul>
+<li>znormalizowaną treść opisu posiłku wraz z rozpoznanym wynikiem (pamięć podręczna, dzięki której ten sam opis nie wymaga ponownego zapytania do AI),</li>
+<li>nazwy i wartości odżywcze produktów rozpoznanych przez AI lub odczytanych z etykiety.</li>
+</ul>
+<p>Te zapisy nie są powiązane z Twoim kontem ani identyfikatorem — nie da się na ich podstawie ustalić, kto wpisał dany opis. Nie zapisujemy w ten sposób nagrań głosu ani zdjęć.</p>
+<h2>7. Przechowywanie</h2>
+<p>Dane trzymamy tak długo, jak masz konto/aktywnie korzystasz z aplikacji. Dane lokalne są na Twoim urządzeniu; dane konta w Supabase (UE).</p>
+<h2>8. Twoje prawa</h2>
+<p>Masz prawo do dostępu, sprostowania, usunięcia, ograniczenia i przenoszenia danych oraz sprzeciwu. Konto i wszystkie dane serwerowe usuniesz w aplikacji: Profil → „Usuń konto&quot;. Możesz też napisać do nas: oriee.app@gmail.com. Masz również prawo wnieść skargę do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa.</p>
+<h2>9. Dzieci</h2>
+<p>Aplikacja nie jest przeznaczona dla osób poniżej 16 lat — to próg zgody na przetwarzanie danych obowiązujący w Polsce. Trybu odchudzania nie promujemy wobec osób niepełnoletnich: przy wieku poniżej 18 lat aplikacja zaleca konsultację z lekarzem zamiast deficytu.</p>
+<h2>10. Zmiany</h2>
+<p>O istotnych zmianach poinformujemy w aplikacji. Dalsze korzystanie oznacza akceptację zaktualizowanej polityki.</p>
+<h2>11. Kontakt</h2>
+<p>Pytania dotyczące prywatności: oriee.app@gmail.com.</p>
+</main>
+<footer>
+  <p>MR Marcin Ruciński · NIP 6482808866 ·
+     <a href="mailto:oriee.app@gmail.com">oriee.app@gmail.com</a></p>
+  <p><a href="../prywatnosc/">Polityka prywatności</a> ·
+     <a href="../regulamin/">Regulamin</a></p>
+</footer>
+</div>
+</body>
+</html>
