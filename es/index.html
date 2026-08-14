@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>oriee — oriee</title>
+<meta name="description" content="oriee de oriee: un contador de calorías con registro de comidas por IA.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+    --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+  --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+}
+:root[data-theme="light"]{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink-soft);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px; line-height:1.65;
+}
+.wrap{max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 4rem}
+header{border-bottom:1px solid var(--line); padding-bottom:1.25rem; margin-bottom:2rem}
+.brand{
+  display:inline-block; font-weight:700; font-size:1.05rem; letter-spacing:-.01em;
+  color:var(--pine); text-decoration:none;
+}
+h1{
+  color:var(--ink); font-size:1.75rem; line-height:1.25; letter-spacing:-.02em;
+  margin:.75rem 0 0; font-weight:800;
+}
+h2{
+  color:var(--ink); font-size:1.05rem; letter-spacing:-.01em;
+  margin:2.25rem 0 .5rem; font-weight:700;
+}
+.updated{
+  color:var(--ink-faint); font-size:.8125rem; margin:.5rem 0 0;
+  font-variant-numeric:tabular-nums;
+}
+p{margin:0 0 .85rem}
+ul{margin:0 0 .85rem; padding-left:1.15rem}
+li{margin:0 0 .35rem}
+a{color:var(--pine)}
+footer{
+  margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
+  color:var(--ink-faint); font-size:.8125rem;
+}
+footer a{color:var(--ink-faint)}
+@media(max-width:30rem){ .wrap{padding:1.75rem 1rem 3rem} h1{font-size:1.45rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./">oriee</a>
+  <h1>oriee</h1>
+  <p class="updated"></p>
+</header>
+<main>
+<p>oriee es un contador de calorías y diario de comidas. Registra una comida con una foto, texto o tu voz: la IA hace el resto.</p><h2>Documentos</h2><ul><li><a href="prywatnosc/">Política de privacidad</a></li><li><a href="regulamin/">Términos del servicio</a></li><li><a href="usun-konto/">Eliminación de cuenta y datos</a></li></ul><h2>Contacto</h2><p><a href="mailto:oriee.app@gmail.com">oriee.app@gmail.com</a></p>
+</main>
+<footer>
+  <p>MR Marcin Ruciński · NIP 6482808866 ·
+     <a href="mailto:oriee.app@gmail.com">oriee.app@gmail.com</a></p>
+  <p><a href="./prywatnosc/">Política de privacidad</a> ·
+     <a href="./regulamin/">Términos del servicio</a> ·
+     <a href="./usun-konto/">Eliminación de cuenta</a></p>
+</footer>
+</div>
+</body>
+</html>

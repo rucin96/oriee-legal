@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad — oriee</title>
+<meta name="description" content="Política de privacidad de oriee de oriee: un contador de calorías con registro de comidas por IA.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+    --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1512; --surface:#161E19; --ink:#E9EFE7; --ink-soft:#A6B2A8;
+  --ink-faint:#7A867C; --line:#26302A; --pine:#3DAE80;
+}
+:root[data-theme="light"]{
+  --paper:#F6F7F1; --surface:#fff; --ink:#14211B; --ink-soft:#4C5A50;
+  --ink-faint:#7E8B80; --line:#E4E8DC; --pine:#15734F;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink-soft);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px; line-height:1.65;
+}
+.wrap{max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 4rem}
+header{border-bottom:1px solid var(--line); padding-bottom:1.25rem; margin-bottom:2rem}
+.brand{
+  display:inline-block; font-weight:700; font-size:1.05rem; letter-spacing:-.01em;
+  color:var(--pine); text-decoration:none;
+}
+h1{
+  color:var(--ink); font-size:1.75rem; line-height:1.25; letter-spacing:-.02em;
+  margin:.75rem 0 0; font-weight:800;
+}
+h2{
+  color:var(--ink); font-size:1.05rem; letter-spacing:-.01em;
+  margin:2.25rem 0 .5rem; font-weight:700;
+}
+.updated{
+  color:var(--ink-faint); font-size:.8125rem; margin:.5rem 0 0;
+  font-variant-numeric:tabular-nums;
+}
+p{margin:0 0 .85rem}
+ul{margin:0 0 .85rem; padding-left:1.15rem}
+li{margin:0 0 .35rem}
+a{color:var(--pine)}
+footer{
+  margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
+  color:var(--ink-faint); font-size:.8125rem;
+}
+footer a{color:var(--ink-faint)}
+@media(max-width:30rem){ .wrap{padding:1.75rem 1rem 3rem} h1{font-size:1.45rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="../">oriee</a>
+  <h1>Política de privacidad de oriee</h1>
+  <p class="updated">Última actualización: 2026-08-10</p>
+</header>
+<main>
+<h2>1. Responsable</h2>
+<p>El responsable de tus datos personales es MR Marcin Ruciński, ul. Wolności 546c/6, 41-806 Zabrze, Polonia, NIF 6482808866. Contacto: oriee.app@gmail.com. Esta es una traducción del original polaco, que sigue siendo la versión vinculante.</p>
+<h2>2. Qué datos tratamos</h2>
+<ul>
+<li>Datos de perfil: sexo, edad, altura, peso, nivel de actividad y objetivo, indicados durante el onboarding.</li>
+<li>Diario de comidas: comidas registradas, porciones, valores nutricionales y racha.</li>
+<li>Peso y evolución del peso (incluidos los importados de Apple Health / Health Connect con tu consentimiento).</li>
+<li>Cuenta: identificador, dirección de correo (si creas una cuenta) y estado de la suscripción.</li>
+<li>Al iniciar sesión con Google: nombre y apellidos y la dirección de la foto de perfil que Google transmite en la autenticación. No los usamos en la aplicación: los guarda nuestro proveedor de autenticación y desaparecen junto con la cuenta.</li>
+<li>Al iniciar sesión con Apple: la dirección de correo y el nombre y apellidos que Apple transmite en la autenticación (el nombre solo en la primera autorización). Si eliges «Ocultar mi correo», solo recibimos una dirección de reenvío en el dominio privaterelay.appleid.com: nunca conocemos tu dirección real. El nombre no lo usamos en la aplicación; lo guarda nuestro proveedor de autenticación y desaparece con la cuenta.</li>
+<li>Contenidos para el reconocimiento por IA: texto de la comida, grabación de voz convertida en texto y fotos de comidas o etiquetas, tratados para reconocer y calcular los valores.</li>
+<li>Datos técnicos necesarios para el funcionamiento (por ejemplo, registros de errores en el servidor).</li>
+</ul>
+<h2>3. Fines y bases jurídicas (RGPD)</h2>
+<ul>
+<li>Prestación del servicio (conteo de calorías, diario, tendencias) — art. 6.1.b.</li>
+<li>Reconocimiento de comidas por IA — ejecución del contrato (letra b).</li>
+<li>Datos de salud (peso, Health) — sobre la base de tu consentimiento explícito (art. 9.2.a); puedes retirarlo en cualquier momento en los ajustes del sistema o de la aplicación.</li>
+<li>Liquidación de la suscripción — obligación legal y ejecución del contrato.</li>
+</ul>
+<h2>4. Destinatarios / encargados del tratamiento</h2>
+<p>Recurrimos a proveedores de confianza solo en la medida necesaria para el funcionamiento:</p>
+<ul>
+<li>Supabase (base de datos, autenticación, funciones de servidor) — región UE.</li>
+<li>Anthropic (modelo de IA Claude) — tratamiento del texto y las fotos de comidas para su reconocimiento.</li>
+<li>RevenueCat y Apple App Store / Google Play — gestión de suscripciones y pagos.</li>
+<li>Open Food Facts — base pública de productos (ODbL) utilizada para la búsqueda.</li>
+</ul>
+<p>No vendemos tus datos. No usamos datos nutricionales ni de salud con fines publicitarios.</p>
+<h2>5. Fotos e IA</h2>
+<p>Enviamos las fotos de comidas y etiquetas para su tratamiento con el fin de reconocerlas. No conservamos las fotos después del tratamiento: no las guardamos en nuestros servidores. No usamos tus fotos para entrenar modelos.</p>
+<h2>6. Base de productos compartida</h2>
+<p>Para que la aplicación funcione más rápido y con más precisión para todos, guardamos en nuestra base de datos:</p>
+<ul>
+<li>el texto normalizado de la descripción de la comida junto con el resultado reconocido (una caché gracias a la cual la misma descripción no requiere otra consulta a la IA),</li>
+<li>nombres y valores nutricionales de productos reconocidos por la IA o leídos de una etiqueta.</li>
+</ul>
+<p>Estos registros no están vinculados a tu cuenta ni a tu identificador: a partir de ellos no se puede determinar quién introdujo una descripción. De este modo no guardamos grabaciones de voz ni fotos.</p>
+<h2>7. Conservación</h2>
+<p>Conservamos los datos mientras tengas una cuenta o uses activamente la aplicación. Los datos locales están en tu dispositivo; los datos de la cuenta, en Supabase (UE).</p>
+<h2>8. Tus derechos</h2>
+<p>Tienes derecho de acceso, rectificación, supresión, limitación y portabilidad, así como derecho de oposición. Puedes eliminar la cuenta y todos los datos del servidor en la aplicación: Perfil → «Eliminar cuenta». También puedes escribirnos: oriee.app@gmail.com. Asimismo, tienes derecho a presentar una reclamación ante la autoridad de control: el Presidente de la Oficina de Protección de Datos Personales, ul. Stawki 2, 00-193 Varsovia, Polonia.</p>
+<h2>9. Menores</h2>
+<p>La aplicación no está dirigida a menores de 16 años: es el umbral de consentimiento para el tratamiento de datos vigente en Polonia. No promovemos el modo de adelgazamiento entre menores de edad: por debajo de los 18 años la aplicación recomienda consultar a un médico en lugar de un déficit.</p>
+<h2>10. Cambios</h2>
+<p>Informaremos de los cambios sustanciales en la aplicación. El uso continuado implica la aceptación de la política actualizada.</p>
+<h2>11. Contacto</h2>
+<p>Consultas sobre privacidad: oriee.app@gmail.com.</p>
+</main>
+<footer>
+  <p>MR Marcin Ruciński · NIP 6482808866 ·
+     <a href="mailto:oriee.app@gmail.com">oriee.app@gmail.com</a></p>
+  <p><a href="../prywatnosc/">Política de privacidad</a> ·
+     <a href="../regulamin/">Términos del servicio</a> ·
+     <a href="../usun-konto/">Eliminación de cuenta</a></p>
+</footer>
+</div>
+</body>
+</html>
