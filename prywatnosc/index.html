@@ -77,55 +77,96 @@ footer a{color:var(--ink-faint)}
 </header>
 <main>
 <h2>1. Administrator</h2>
-<p>Administratorem Twoich danych osobowych jest MR Marcin Ruciński, ul. Wolności 546c/6, 41-806 Zabrze, NIP 6482808866. Kontakt: oriee.app@gmail.com.</p>
+<p>Administratorem Twoich danych osobowych jest MR Marcin Ruciński (jednoosobowa działalność gospodarcza), ul. Wolności 546c/6, 41-806 Zabrze, NIP 6482808866. Kontakt we wszystkich sprawach dotyczących danych: oriee.app@gmail.com. Nie wyznaczyliśmy inspektora ochrony danych — w sprawach RODO pisz na powyższy adres.</p>
 <h2>2. Jakie dane przetwarzamy</h2>
 <ul>
-<li>Dane profilu: płeć, wiek, wzrost, waga, poziom aktywności, cel — podane w onboardingu.</li>
-<li>Dziennik żywieniowy: zalogowane posiłki, porcje, wartości odżywcze, passa.</li>
-<li>Waga i trend wagi (w tym importowane z Apple Health / Health Connect za Twoją zgodą).</li>
-<li>Konto: identyfikator, adres e-mail (jeśli założysz konto), status subskrypcji.</li>
-<li>Przy logowaniu przez Google: imię i nazwisko oraz adres zdjęcia profilowego, które Google przekazuje przy uwierzytelnieniu. Nie używamy ich w aplikacji — zapisuje je nasz dostawca uwierzytelniania i znikają razem z kontem.</li>
-<li>Przy logowaniu przez Apple: adres e-mail oraz imię i nazwisko, które Apple przekazuje przy uwierzytelnieniu (imię i nazwisko tylko przy pierwszej autoryzacji). Jeśli wybierzesz „Ukryj mój adres e-mail”, dostajemy wyłącznie adres przekierowujący w domenie privaterelay.appleid.com — Twojego prawdziwego adresu nie poznajemy. Imienia i nazwiska nie używamy w aplikacji; zapisuje je nasz dostawca uwierzytelniania i znikają razem z kontem.</li>
-<li>Treści do rozpoznania przez AI: tekst posiłku, nagranie głosu zamienione na tekst, zdjęcia posiłków/etykiet — przetwarzane w celu rozpoznania i policzenia wartości.</li>
-<li>Dane techniczne niezbędne do działania (np. logi błędów po stronie serwera).</li>
+<li>Dane konta: identyfikator użytkownika, a jeśli założysz konto — adres e-mail oraz informacja, przez jaką metodę się logujesz (Google / Apple / e-mail).</li>
+<li>Dane z logowania Google: imię i nazwisko oraz adres zdjęcia profilowego, które Google przekazuje przy uwierzytelnieniu. Nie używamy ich w aplikacji — zapisuje je nasz dostawca uwierzytelniania i znikają razem z kontem.</li>
+<li>Dane z logowania Apple: adres e-mail oraz imię i nazwisko (imię i nazwisko tylko przy pierwszej autoryzacji). Jeśli wybierzesz „Ukryj mój adres e-mail”, dostajemy wyłącznie adres przekierowujący w domenie privaterelay.appleid.com — Twojego prawdziwego adresu nie poznajemy. Imienia i nazwiska nie używamy w aplikacji; zapisuje je nasz dostawca uwierzytelniania i znikają razem z kontem.</li>
+<li>Dane profilu: płeć, wiek, wzrost, waga, poziom aktywności i cel — podane przez Ciebie w onboardingu. Poziom aktywności deklarujesz samodzielnie; nie odczytujemy z Twojego telefonu kroków, treningów ani innej aktywności.</li>
+<li>Dane żywieniowe: zalogowane posiłki, porcje, wartości odżywcze, passa (dziennik).</li>
+<li>Dane o masie ciała: aktualna waga i historia/trend wagi.</li>
+<li>Dane z Apple Health / Health Connect (za Twoją zgodą udzieloną w systemie): waga, a na iPhonie jednorazowo przy zakładaniu profilu także wzrost, płeć i data urodzenia. Szczegóły w pkt 6.</li>
+<li>Zdjęcia: fotografie posiłków lub etykiet, które sam(a) robisz albo wybierasz, aby aplikacja je rozpoznała. Szczegóły w pkt 7.</li>
+<li>Głos: gdy dyktujesz posiłek, transkrypcja na tekst odbywa się na Twoim urządzeniu przez mechanizm systemu (Apple / Google). Do nas trafia tylko powstały tekst — nagrania dźwięku nie opuszczają urządzenia i nie zapisujemy ich.</li>
+<li>Dane z analizy AI: nazwy produktów i wartości odżywcze rozpoznane z Twojego opisu, zdjęcia lub etykiety.</li>
+<li>Dane subskrypcji: status subskrypcji (aktywna / próbna / brak) i identyfikator nadany przez dostawcę obsługi subskrypcji. Nie mamy dostępu do danych Twojej karty ani numeru rachunku — płatność realizuje sklep (App Store / Google Play).</li>
+<li>Dane techniczne: informacje niezbędne do działania i wykrywania błędów, w tym logi błędów po stronie serwera.</li>
 </ul>
-<h2>3. Cele i podstawy prawne (RODO)</h2>
+<h2>3. Dane dotyczące zdrowia (szczególna kategoria)</h2>
+<p>Część danych, które przetwarzamy — w szczególności waga i jej historia oraz wartości pobrane z Apple Health / Health Connect — może stanowić dane dotyczące zdrowia, czyli szczególną kategorię danych osobowych w rozumieniu art. 9 RODO. Traktujemy je z podwyższoną ostrożnością: przetwarzamy je wyłącznie po to, żeby prowadzić Twój dziennik i pokazywać trend wagi, i nie udostępniamy ich do celów reklamowych. Podstawą jest Twoja wyraźna zgoda (pkt 4 i 5).</p>
+<h2>4. Cele przetwarzania i podstawy prawne (RODO)</h2>
 <ul>
-<li>Świadczenie usługi (liczenie kalorii, dziennik, trendy) — art. 6 ust. 1 lit. b.</li>
-<li>Rozpoznawanie posiłków przez AI — wykonanie umowy (lit. b).</li>
-<li>Dane zdrowotne (waga, Health) — na podstawie Twojej wyraźnej zgody (art. 9 ust. 2 lit. a); zgodę możesz wycofać w każdej chwili w ustawieniach systemu / aplikacji.</li>
-<li>Rozliczenie subskrypcji — obowiązek prawny i wykonanie umowy.</li>
-<li>Bezpieczeństwo i poprawne działanie usługi (logi błędów po stronie serwera) — nasz uzasadniony interes (art. 6 ust. 1 lit. f).</li>
+<li>Świadczenie usługi: liczenie kalorii, prowadzenie dziennika, wyliczenia BMR/TDEE i celu kalorycznego, pokazywanie trendów — art. 6 ust. 1 lit. b (wykonanie umowy).</li>
+<li>Rozpoznawanie posiłków przez AI z tekstu, głosu (jako tekstu) i zdjęć — art. 6 ust. 1 lit. b (wykonanie umowy).</li>
+<li>Przetwarzanie danych dotyczących zdrowia (waga i dane z Health) — art. 9 ust. 2 lit. a, czyli Twoja wyraźna zgoda. Zgodę możesz w każdej chwili wycofać (pkt 5); nie wpływa to na zgodność z prawem przetwarzania sprzed wycofania.</li>
+<li>Obsługa i rozliczenie subskrypcji — art. 6 ust. 1 lit. b oraz, w zakresie dokumentacji księgowej, art. 6 ust. 1 lit. c (obowiązek prawny).</li>
+<li>Bezpieczeństwo, poprawne działanie i wykrywanie błędów (logi po stronie serwera), a także ustalenie lub obrona roszczeń — art. 6 ust. 1 lit. f (nasz uzasadniony interes).</li>
 </ul>
-<p>Wyliczenia (BMR/TDEE, cel kaloryczny) powstają automatycznie, ale mają charakter wyłącznie orientacyjny — nie podejmujemy wobec Ciebie zautomatyzowanych decyzji wywołujących skutki prawne ani podobnie istotnych.</p>
-<h2>4. Odbiorcy / podmioty przetwarzające</h2>
-<p>Korzystamy z zaufanych dostawców wyłącznie w zakresie niezbędnym do działania:</p>
+<h2>5. Zgoda i jej wycofanie</h2>
+<p>Zgodę na przetwarzanie danych dotyczących zdrowia wyrażasz, udzielając aplikacji dostępu do Apple Health / Health Connect oraz wprowadzając wagę w aplikacji. Zgodę wycofasz w każdej chwili: cofnij dostęp aplikacji do Health w ustawieniach systemu, przestań podawać wagę albo usuń dotychczasowe wpisy wagi lub całe konto (pkt 13). Możesz też napisać na oriee.app@gmail.com. Wycofanie zgody nie odbiera Ci pozostałych funkcji aplikacji, które nie wymagają danych o zdrowiu.</p>
+<h2>6. Apple Health i Health Connect</h2>
 <ul>
-<li>Supabase (baza danych, uwierzytelnianie, funkcje serwerowe) — region UE.</li>
-<li>Anthropic (model AI Claude, USA) — przetwarzanie tekstu/zdjęć posiłków w celu rozpoznania.</li>
-<li>RevenueCat oraz Apple App Store / Google Play — obsługa subskrypcji i płatności.</li>
-<li>Open Food Facts — publiczna baza produktów (ODbL) używana do wyszukiwania.</li>
+<li>Co odczytujemy: wagę (na iPhonie i Androidzie), a na iPhonie dodatkowo jednorazowo przy zakładaniu profilu wzrost, płeć i datę urodzenia, żeby wstępnie wypełnić onboarding. Nie odczytujemy kroków, tętna, treningów ani innych kategorii zdrowotnych. Dostęp mamy wyłącznie do odczytu — nie zapisujemy niczego z powrotem do Health.</li>
+<li>W jakim celu: żeby prowadzić trend wagi i wstępnie wypełnić Twój profil.</li>
+<li>Gdzie trafiają: waga staje się częścią Twojego dziennika i jest zapisywana na urządzeniu, a jeśli masz konto — synchronizowana do naszej bazy (region UE) jako element Twoich danych.</li>
+<li>Czy trafiają do AI: nie. Danych z Health (wagi, wzrostu, płci, daty urodzenia) nie wysyłamy do dostawcy AI ani do żadnego podmiotu trzeciego w celach marketingowych.</li>
+<li>Jak wyłączyć: cofnij zgodę aplikacji na dostęp do Health w ustawieniach systemu. Import się zatrzyma. Wartości pobrane wcześniej pozostają w Twoim dzienniku do momentu, aż je usuniesz (pojedynczo, przez usunięcie historii wagi albo przez usunięcie konta — pkt 13).</li>
 </ul>
-<p>Nie sprzedajemy Twoich danych. Nie wykorzystujemy danych żywieniowych/zdrowotnych do reklam. Przekazywanie poza EOG: treści wysyłane do rozpoznania przez AI trafiają do Anthropic w Stanach Zjednoczonych. Anthropic uczestniczy w programie EU-US Data Privacy Framework (decyzja o adekwatności), a transfer dodatkowo zabezpieczają standardowe klauzule umowne zatwierdzone przez Komisję Europejską (art. 46 RODO). Pozostałe dane konta trzymamy w regionie UE (Supabase).</p>
-<h2>5. Zdjęcia i AI</h2>
-<p>Zdjęcia posiłków/etykiet wysyłamy do przetwarzania w celu rozpoznania. Nie przechowujemy zdjęć po przetworzeniu — nie zapisujemy ich na naszych serwerach. Nie używamy Twoich zdjęć do trenowania modeli.</p>
-<h2>6. Wspólna baza produktów</h2>
-<p>Aby aplikacja działała szybciej i dokładniej dla wszystkich, zapisujemy w naszej bazie:</p>
+<h2>7. Zdjęcia, głos i sztuczna inteligencja (Anthropic)</h2>
+<ul>
+<li>Co wysyłamy do AI: tekst opisu posiłku, tekst powstały z dyktowania (patrz niżej) oraz zdjęcia posiłków/etykiet — po to, aby rozpoznać produkty i policzyć wartości odżywcze.</li>
+<li>Głos: transkrypcja odbywa się na Twoim urządzeniu; do przetworzenia trafia tylko tekst, nagranie dźwięku nie jest do nas wysyłane ani przechowywane.</li>
+<li>Zdjęcia: przekazujemy je do przetworzenia w celu rozpoznania i nie zapisujemy ich na naszych serwerach po przetworzeniu.</li>
+<li>Dostawca: Anthropic PBC (model Claude), przetwarzanie w Stanach Zjednoczonych. Anthropic działa jako podmiot przetwarzający na nasze polecenie.</li>
+<li>Trenowanie modeli: zgodnie z warunkami korzystania z komercyjnego API Anthropic dane przesyłane przez API nie są wykorzystywane do trenowania modeli.</li>
+<li>Transfer poza EOG: tak — do USA. Podstawy transferu opisuje pkt 11.</li>
+<li>Nie wysyłamy do AI danych z Apple Health / Health Connect ani Twoich danych logowania.</li>
+</ul>
+<h2>8. Automatyczne wyliczenia i personalizacja</h2>
+<p>Na podstawie Twojego profilu (płeć, wiek, wzrost, waga, aktywność, cel) automatycznie wyliczamy zapotrzebowanie (BMR/TDEE) i proponujemy dzienny cel kaloryczny oraz makroskładniki. Jest to personalizacja usługi, a nie zautomatyzowane podejmowanie decyzji wywołujące wobec Ciebie skutki prawne lub podobnie istotne w rozumieniu art. 22 RODO — wyliczenia mają charakter wyłącznie orientacyjny, możesz je zignorować, a aplikacja nie podejmuje na ich podstawie żadnych działań poza pokazaniem Ci wyniku. Nie profilujemy Cię na potrzeby reklamy.</p>
+<h2>9. Wspólna baza produktów</h2>
+<p>Aby aplikacja działała szybciej i dokładniej dla wszystkich, zapisujemy w naszej wspólnej bazie:</p>
 <ul>
 <li>znormalizowaną treść opisu posiłku wraz z rozpoznanym wynikiem (pamięć podręczna, dzięki której ten sam opis nie wymaga ponownego zapytania do AI),</li>
 <li>nazwy i wartości odżywcze produktów rozpoznanych przez AI lub odczytanych z etykiety.</li>
 </ul>
-<p>Te zapisy nie są powiązane z Twoim kontem ani identyfikatorem — nie da się na ich podstawie ustalić, kto wpisał dany opis. Nie zapisujemy w ten sposób nagrań głosu ani zdjęć.</p>
-<h2>7. Przechowywanie</h2>
-<p>Dane trzymamy tak długo, jak masz konto i aktywnie korzystasz z aplikacji. Dane lokalne są na Twoim urządzeniu; dane konta w Supabase (UE). Po usunięciu konta dane serwerowe kasujemy niezwłocznie, z wyjątkiem tych, które musimy zachować dłużej: dokumentów rozliczeniowych subskrypcji (wymóg podatkowy) oraz danych niezbędnych do ustalenia lub obrony roszczeń — przez okres wynikający z przepisów, a następnie je usuwamy.</p>
-<h2>8. Twoje prawa</h2>
-<p>Masz prawo do dostępu, sprostowania, usunięcia, ograniczenia i przenoszenia danych oraz sprzeciwu. Konto i powiązane dane serwerowe usuniesz w aplikacji: Profil → „Usuń konto” (poza danymi, które z przyczyn prawnych zachowujemy zgodnie z pkt 7). Możesz też napisać do nas: oriee.app@gmail.com. Masz również prawo wnieść skargę do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa.</p>
-<h2>9. Dzieci</h2>
-<p>Aplikacja nie jest przeznaczona dla osób poniżej 16 lat — to próg zgody na przetwarzanie danych obowiązujący w Polsce. Trybu odchudzania nie promujemy wobec osób niepełnoletnich: przy wieku poniżej 18 lat aplikacja zaleca konsultację z lekarzem zamiast deficytu.</p>
-<h2>10. Zmiany</h2>
+<p>Zapisów tych nie wiążemy z Twoim kontem ani identyfikatorem — w samym wpisie nie ma informacji, kto go wprowadził. Nie zapisujemy tu nagrań głosu ani zdjęć. Wpisy te zostają w bazie także po usunięciu konta (pkt 13). Traktujemy je jako dane pozbawione bezpośrednich identyfikatorów; nie deklarujemy pełnej anonimizacji, bo sam tekst opisu wpisujesz swobodnie.</p>
+<h2>10. Odbiorcy danych i podmioty przetwarzające</h2>
+<p>Korzystamy z zaufanych dostawców wyłącznie w zakresie niezbędnym do działania usługi:</p>
+<ul>
+<li>Supabase — baza danych, uwierzytelnianie i funkcje serwerowe; podmiot przetwarzający; region UE.</li>
+<li>Anthropic (Claude) — rozpoznawanie tekstu/zdjęć posiłków; podmiot przetwarzający; USA (pkt 7, 11).</li>
+<li>RevenueCat — obsługa i weryfikacja statusu subskrypcji; podmiot przetwarzający; USA. Otrzymuje identyfikatory zakupu i status subskrypcji, nie dane Twojej karty.</li>
+<li>Apple App Store oraz Google Play — sprzedaż subskrypcji i płatności; działają jako niezależni administratorzy w zakresie realizowanej przez siebie transakcji, zgodnie z własnymi politykami.</li>
+<li>Open Food Facts — publiczna, otwarta baza produktów (licencja ODbL) używana do wyszukiwania; wyszukiwanie produktu nie wymaga wysłania Twoich danych osobowych.</li>
+</ul>
+<p>Nie sprzedajemy Twoich danych. Nie wykorzystujemy danych żywieniowych ani zdrowotnych do reklam.</p>
+<h2>11. Przekazywanie danych poza EOG</h2>
+<p>Dane konta i dziennika trzymamy w regionie UE (Supabase). Treści wysyłane do rozpoznania przez AI trafiają do Anthropic w USA, a dane subskrypcji do RevenueCat w USA. Anthropic figuruje na liście uczestników programu EU-US Data Privacy Framework, a jako dodatkowe zabezpieczenie transferu stosowane są standardowe klauzule umowne zatwierdzone przez Komisję Europejską (art. 46 RODO). Jeśli chcesz otrzymać informację o aktualnych podstawach transferu do konkretnego dostawcy, napisz na oriee.app@gmail.com.</p>
+<h2>12. Jak długo przechowujemy dane</h2>
+<ul>
+<li>Konto i profil — przez czas posiadania konta; po jego usunięciu kasujemy niezwłocznie z aktywnej bazy (pkt 13).</li>
+<li>Dziennik żywieniowy, waga i dane z Health — razem z kontem; lokalnie na urządzeniu do czasu odinstalowania aplikacji.</li>
+<li>Zdjęcia posiłków/etykiet — nie przechowujemy po rozpoznaniu.</li>
+<li>Głos — nie przechowujemy; nagranie nie opuszcza urządzenia.</li>
+<li>Treści rozpoznane przez AI — u nas pozostają jedynie we wspólnej bazie fraz i produktów (pkt 9, bez powiązania z kontem); po stronie Anthropic zgodnie z jego zasadami dla API.</li>
+<li>Logi błędów po stronie serwera — krótkotrwale, usuwane automatycznie w cyklu dostawcy infrastruktury.</li>
+<li>Dokumenty rozliczeniowe subskrypcji — przez okres wymagany przepisami podatkowymi (co do zasady 5 lat, licząc od końca roku, w którym powstał obowiązek).</li>
+<li>Dane potrzebne do ustalenia lub obrony roszczeń oraz do obsługi reklamacji — do upływu właściwych terminów przedawnienia, a następnie je usuwamy.</li>
+</ul>
+<h2>13. Usunięcie konta i danych</h2>
+<p>Konto i powiązane dane serwerowe usuniesz w aplikacji: Profil → „Usuń konto”. Usunięcie kasuje z naszej aktywnej bazy dane Twojego konta (profil, dziennik, wagę i trend, zapisany status subskrypcji) oraz sam login. Robimy to od razu, bez okresu karencji. Kopie, które mogą przejściowo pozostać w automatycznych kopiach zapasowych i logach naszego dostawcy infrastruktury, są usuwane w ramach jego normalnego cyklu i nie służą do odtwarzania kont. Wyjątkowo dłużej możemy zachować dane wymienione w pkt 12 (dokumenty rozliczeniowe, dane niezbędne do roszczeń). Pełną instrukcję, w tym usunięcie bez aplikacji, opisuje osobna strona „Usunięcie konta”.</p>
+<h2>14. Twoje prawa</h2>
+<p>Masz prawo do dostępu do danych, ich sprostowania, usunięcia, ograniczenia i przenoszenia oraz do sprzeciwu wobec przetwarzania opartego na uzasadnionym interesie. W zakresie danych opartych na zgodzie masz prawo ją wycofać (pkt 5). Aby skorzystać z praw, użyj funkcji „Usuń konto” lub napisz na oriee.app@gmail.com. Masz również prawo wnieść skargę do organu nadzorczego — Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa.</p>
+<h2>15. Dzieci</h2>
+<p>Aplikacja nie jest przeznaczona dla osób poniżej 16 lat. Zgodnie z art. 8 RODO w związku z polską ustawą o ochronie danych osobowych, w przypadku usług społeczeństwa informacyjnego oferowanych bezpośrednio dziecku zgoda dziecka na przetwarzanie danych jest w Polsce ważna od 16. roku życia; poniżej tego wieku wymagana jest zgoda opiekuna. Osobom niepełnoletnim (poniżej 18 lat) nie promujemy odchudzania — przy takim wieku aplikacja zaleca konsultację z lekarzem zamiast deficytu kalorycznego.</p>
+<h2>16. Bezpieczeństwo</h2>
+<p>Stosujemy szyfrowanie połączeń i ograniczamy dostęp do danych po stronie serwera do tego, co niezbędne do działania usługi. Żadna metoda przesyłania i przechowywania nie jest w 100% niezawodna, ale dokładamy starań, by chronić Twoje dane odpowiednio do ryzyka.</p>
+<h2>17. Zmiany polityki</h2>
 <p>O istotnych zmianach poinformujemy w aplikacji z co najmniej 14-dniowym wyprzedzeniem. Dalsze korzystanie po wejściu zmian w życie oznacza akceptację zaktualizowanej polityki; nie ogranicza to praw, które przysługują Ci na mocy RODO.</p>
-<h2>11. Kontakt</h2>
-<p>Pytania dotyczące prywatności: oriee.app@gmail.com.</p>
+<h2>18. Kontakt</h2>
+<p>Pytania dotyczące prywatności i danych: oriee.app@gmail.com.</p>
 </main>
 <footer>
   <p>MR Marcin Ruciński · NIP 6482808866 ·
